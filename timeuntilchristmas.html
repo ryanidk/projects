@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Time Until Christmas</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" rel="stylesheet" type="text/css" />
+    <style>
+      p {
+        font-family: 'Roboto', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <p>You may right click and click on view source code if you want!</p>
+    <p id="time">Loading...</p>
+    <script type="text/javascript">
+      var date = new Date(1608872400000).getTime();
+      var i = setInterval(function() {
+        var currenttime = new Date().getTime();
+        var difference = date - currenttime;
+        
+        var days = Math.floor(difference / (1000 * 60 * 60 * 24)); 
+        var hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); 
+        var minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((difference % (1000 * 60)) / 1000);
+        
+        document.getElementById("time").innerHTML = "Time until Christmas: " + days + " day(s), " + hours + " hour(s), "+ minutes + " minute(s), " + seconds + " second(s)";
+
+        if (difference < 0) {
+          clearInterval(x);
+          document.getElementById("time").innerHTML = "Timer Finished!";
+        }
+
+      }, 1000); 
+
+
+    </script>
+  </body>
+</html>
