@@ -1,5 +1,5 @@
 <p align="center">
-  # My Projects!
+  <strong>My Projects!</strong>
 </p>
 <p align="center">
   <a href="https://github.com/ryanidk/projects">
@@ -9,5 +9,5 @@
     <img src="https://img.shields.io/badge/license-MIT-brightgreen"></img>
   </a>
 </p>
-This is a Github repo that has most of my programming projects in it.
+<p align="center">This is a Github repo that has most of my programming projects in it.</p>
 
