@@ -1,6 +1,4 @@
 # My Projects!
-This is a Github repo that has most of my programming projects in it.
-
 <p align="center">
   <a href="https://github.com/ryanidk/projects">
     <img src="https://img.shields.io/github/last-commit/ryanidk/projects"></img>
@@ -9,3 +7,5 @@ This is a Github repo that has most of my programming projects in it.
     <img src="https://img.shields.io/badge/license-MIT-brightgreen"></img>
   </a>
 </p>
+This is a Github repo that has most of my programming projects in it.
+
