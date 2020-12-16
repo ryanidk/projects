@@ -1,4 +1,6 @@
-# My Projects!
+<p align="center">
+  # My Projects!
+</p>
 <p align="center">
   <a href="https://github.com/ryanidk/projects">
     <img src="https://img.shields.io/github/last-commit/ryanidk/projects"></img>
